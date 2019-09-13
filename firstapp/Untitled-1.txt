@@ -1,0 +1,8 @@
+db.nodemongo.insertMany([
+    {_"id":3,"name":"bat","rollno:3}
+    {_"id":4,"name":"batman","rollno:4}
+    {_"id":5,"name":"bats","rollno:5}
+    {_"id":6,"name":"bate","rollno:6}
+    {_"id":7,"name":"bati","rollno:7}
+    {_"id":8,"name":"batu","rollno:8}
+])

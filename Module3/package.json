@@ -1,0 +1,14 @@
+{
+  "name": "module3",
+  "version": "1.0.0",
+  "description": "ss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ss"
+  ],
+  "author": "ss",
+  "license": "ISC"
+}

@@ -1,0 +1,34 @@
+db.ss.update(
+{"city" : "London"},
+{
+$set:{
+    "population":123456
+}
+}
+)
+/////
+If i am having two records then 
+db.ss.update(
+{"city" : "London"},
+{
+$set:{
+    "population":123456
+}
+},
+{multi:true}
+)
+////upsert
+db.ss.update(
+{"city" : "Delhi"},
+{
+$set:{
+    "population":1234567
+}
+},
+{upsert:true}
+)
+///////
+
+echo "export SENDGRID_API_KEY='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'" > sendgrid.env
+echo "sendgrid.env" >> .gitignore
+source ./sendgrid.env
